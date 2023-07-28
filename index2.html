@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemons</title>
+    <script src="script2.js" defer></script>
+</head>
+<body>
+    <script id="entry-template" type="text/x-handlebars-template">
+        <div class="entry">
+          <h1>pokemons</h1>
+          <div class="body">
+            <div>
+                <span>{{@index2}}</span>
+                <span>{{this.name}}</span>
+            </div>
+        {{/each}}
+            </div>
+        </div>
+    </script>
+</body>
+</html>
